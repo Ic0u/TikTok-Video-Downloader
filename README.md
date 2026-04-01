@@ -1,4 +1,4 @@
-# TTVD — TikTok Video Downloader
+# TTVD
 
 A free, ad-free, open-source tool for downloading medias without watermarks.
 
