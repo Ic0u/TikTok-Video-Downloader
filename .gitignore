@@ -1,4 +1,12 @@
-######################
-## EPiServer Files
-######################
-*License.config
+node_modules
+.svelte-kit
+build
+.env
+.env.*
+!.env.example
+.DS_Store
+*.log
+.npm_cache
+dist
+ngrok*
+
