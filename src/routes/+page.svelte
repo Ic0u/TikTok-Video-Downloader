@@ -88,7 +88,7 @@
 
 <svelte:head>
 	<title>TTVD v3</title>
-	<meta name="description" content="Download TikTok videos without watermark in high quality." />
+	<meta name="description" content="Download media without watermark in high quality." />
 </svelte:head>
 
 <!-- Center -->

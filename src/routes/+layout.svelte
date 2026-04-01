@@ -53,7 +53,7 @@
 				<span class="icon"><BookOpen size={16} /></span>
 				<span class="label">Blogs</span>
 			</a>
-			<a href="https://github.com/0x6a69616e/snaptik-app-api" target="_blank" rel="noopener" class="sidebar-link">
+			<a href="https://github.com/Ic0u/TikTok-Video-Downloader" target="_blank" rel="noopener" class="sidebar-link">
 				<span class="icon"><Github size={16} /></span>
 				<span class="label">Github</span>
 			</a>
@@ -95,7 +95,7 @@
 			</div>
 			<p class="services-note">
 				these are the most popular platforms we support.
-				<a href="https://github.com/yt-dlp/yt-dlp/blob/master/supportedsites.md" target="_blank" rel="noopener noreferrer">
+				<a href="https://ttvdlist.netlify.app/" target="_blank" rel="noopener noreferrer">
 					see full list of 1800+ supported sites →
 				</a>
 			</p>
