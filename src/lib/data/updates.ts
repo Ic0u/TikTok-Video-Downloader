@@ -42,8 +42,8 @@ export const updates: Update[] = [
 		version: '3.0',
 		date: 'March 28, 2026',
 		title: 'initial SvelteKit migration',
-		image: 'https://upload.wikimedia.org/wikipedia/commons/2/22/The-Last-Supper-Restored-Da-Vinci_32x16.jpg',
-		body: `migrated the entire app from vanilla HTML/JS to SvelteKit with TypeScript. integrated the Snaptik API for watermark-free downloads.`,
+		image: 'https://scontent.fsgn5-11.fna.fbcdn.net/v/t1.6435-9/65313230_2535613583117046_3905686088949170176_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=f7fc3c&_nc_eui2=AeGrbhSJYokfU_kPodNWL49u8RthOdhZ_dPxG2E52Fn909vrgHIfT_qkW4VPlFY96Ah71GTld_usfoUYj299HEO4&_nc_ohc=se4ESt38vloQ7kNvwEjQFsc&_nc_oc=AdqHH8KnBA1RipTT3WMhr_MnBb2kktDTX8ENhICdTEGUy3NOgvDphxJWUiMg9NfQM5g&_nc_zt=23&_nc_ht=scontent.fsgn5-11.fna&_nc_gid=8-Np3183Hps5lJSgPAomRw&_nc_ss=7a3a8&oh=00_Af1pkrd0h6MHPG-7UzVzsjBxl4CGEvT0tSYTS2p0CQ34yA&oe=69F49066',
+		body: `migrated the entire website from vanilla HTML/JS to SvelteKit with TypeScript front-end stack. Rewrite the API in Rust and hosting though my beloved m2 pro mac mini <3 `,
 		changes: [
 			{ heading: 'SvelteKit framework', text: 'moved to a proper component-based architecture with server-side API routes.' },
 			{ heading: 'snaptik integration', text: 'backend API that handles video extraction, HD source resolution, and slideshow detection.' },
@@ -52,9 +52,9 @@ export const updates: Update[] = [
 	},
 	{
 		version: '2.0',
-		date: 'August 22, 2022',
+		date: 'Aug 22, 2022',
 		title: 'the glow up',
-		image: 'https://media.discordapp.net/attachments/1381493490784931952/1488375070492463265/image.png?ex=69cc8ccd&is=69cb3b4d&hm=df936e2ee1cd30a87fe23a1603c59a2e357ea0e24481ce79b1060afad9259165&=&format=webp&quality=lossless&width=1607&height=904',
+		image: 'https://scontent.fsgn5-5.fna.fbcdn.net/v/t39.30808-6/607480877_25848084131470614_6229830023363080593_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=e06c5d&_nc_eui2=AeFelPy11VfaiCQtbmKnvXKaBrymY16_pLYGvKZjXr-ktiZMkzvV2Znu1lJnVZLLVltIhRWFTZ0Uhbmti4aDG2HY&_nc_ohc=v0CXOnv4cbMQ7kNvwHmdgvu&_nc_oc=AdpJLNTO3fS2YoPj8f4zbi6qer0ljBgTky-fv2uu_1Vm7he-_zX4vIIDRClQAD7WaD0&_nc_zt=23&_nc_ht=scontent.fsgn5-5.fna&_nc_gid=UeIFZLLedeir2VPm5lylhg&_nc_ss=7a3a8&oh=00_Af1kstwW7xXdQZtZgTu-nGxSj0o-4x13Vvh88qqBZFiV0A&oe=69D2DC0E',
 		body: `v2 brought much-needed visual improvements with better CSS and more streamlined presets. we also figured out how to auto-extract the direct input of the video with the best settings right out of the gate.`,
 		changes: [
 			{ heading: 'improved css', text: 'gave the interface a proper styling pass to make it actually look good.' },
@@ -65,9 +65,9 @@ export const updates: Update[] = [
 	{
 		version: '1.0',
 		date: 'Feb 12, 2022',
-	    image: 'https://vnrom.net/wp-content/uploads/2025/10/Douyin_TikTok_Download_API_Docs-1024x827.png',
+	    image: 'https://scontent.fsgn5-5.fna.fbcdn.net/v/t39.30808-6/659075149_26729388560006829_2873762336618432374_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=e06c5d&_nc_eui2=AeFyCDRAkV2eZmYjmxvqIkWQN1gkl3KAhPw3WCSXcoCE_AjDFLDdVNdbV_qhqrmC_fiLeurW0w0gRbPhrNYVMMI-&_nc_ohc=KCCPjczv8CQQ7kNvwGsq1-2&_nc_oc=AdphwqeVF6waNEB3XvFIGi4El4n_3C_8ZvXigOpo6k4EnYG4A3TK2iQIluMwlh0NUQY&_nc_zt=23&_nc_ht=scontent.fsgn5-5.fna&_nc_gid=DWmLMQJ0D04XsnGIy_irWQ&_nc_ss=7a3a8&oh=00_Af0RNbtao-cLg1bUMjwL8mKGqHKZQnPg6S3t7OcA7yJhvA&oe=69D2C967',
 		title: 'the learning project',
-		body: `the very beginning. v1 was just a learning project built with my friend Cát. we used it as an excuse to study REST architecture, learn about backend concepts, and figure out how to call the TikTok download API.`,
+		body: `the very beginning. v1 was just a learning project built with my friend Hoàng Cát. we used it as an excuse to study REST architecture, learn about backend concepts, and figure out how to call the TikTok API.`,
 		changes: [
 			{ heading: 'api calling & rest', text: 'our first real deep dive into how REST APIs work post,get,hosting api microservices and how to interact with a backend.' },
 			{ heading: 'tiktok download api', text: 'successfully connected to and pulled data from the tiktok download API for the first time.' },

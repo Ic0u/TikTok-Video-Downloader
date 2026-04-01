@@ -20,8 +20,8 @@
 			</div>
 			<h1>built with purpose,<br/>shared with love</h1>
 			<p class="about-subtitle">
-				TTVD is a free tool for downloading<br/>
-				TikTok videos without watermarks.
+				TTVD is a free tool for downloading media<br/>
+				Paste the link, get the file, move on.
 			</p>
 		</div>
 
