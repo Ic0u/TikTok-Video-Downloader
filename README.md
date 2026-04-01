@@ -1,13 +1,13 @@
 # TTVD — TikTok Video Downloader
 
-A free, ad-free, open-source tool for downloading TikTok videos without watermarks.
+A free, ad-free, open-source tool for downloading medias without watermarks.
 
-Built with [SvelteKit](https://kit.svelte.dev) + TypeScript. Powered by the [SnapTik](https://snaptik.app) extraction API.
+Built with [SvelteKit](https://kit.svelte.dev) + TypeScript. 
 
 ## Features
 
 - **Watermark-free downloads** — video and slideshow support
-- **HD quality** — automatically resolves the highest quality source
+- **4k quality** — automatically resolves the highest quality source
 - **Clipboard paste** — one-click paste from clipboard
 
 
@@ -15,45 +15,17 @@ Built with [SvelteKit](https://kit.svelte.dev) + TypeScript. Powered by the [Sna
 
 ```bash
 # Install dependencies
-npm install
+bum install
 
 # Start dev server
-npm run dev
+bum run dev
 
 # Build for production
-npm run build
+bum run build
 
 # Type check
-npm run check
+bum run check
 ```
-
-## Project Structure
-
-```
-src/
-├── lib/
-│   └── snaptik.ts          # SnapTik API client
-├── routes/
-│   ├── +layout.svelte      # Sidebar + shell layout
-│   ├── +page.svelte        # Home — download page
-│   ├── about/              # About the team
-│   ├── blogs/              # Update log / changelog
-│   ├── products/           # Donate page (bank QR + PayPal)
-│   └── api/download/       # POST endpoint for video extraction
-├── app.css                 # Global styles + design tokens
-└── app.html                # HTML shell
-```
-
-## Tech Stack
-
-| Layer | Tech |
-|-------|------|
-| Framework | SvelteKit |
-| Language | TypeScript |
-| Styling | Vanilla CSS (custom properties) |
-| Icons | Lucide Svelte |
-| API | SnapTik (server-side) |
-| QR Codes | VietQR API |
 
 ## License
 
