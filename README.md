@@ -9,10 +9,10 @@ A free, ad-free, open-source tool for downloading medias without watermarks.
 
 ## Features
 
-- **Watermark-free downloads** — video and slideshow support
-- **4k quality** — automatically resolves the highest quality source
-- **Clipboard paste** — one-click paste from clipboard
-
+* **Watermark-Free Downloads** — Seamless video and slideshow support without intrusive branding.
+* **4K Quality** — Automatically resolves and downloads the highest quality source available.
+* **Clipboard Paste** — Streamlined workflow with one-click paste from your clipboard.
+* **1800 Service Support** — Pretty much every platform .
 
 ## Getting Started
 
