@@ -48,6 +48,12 @@ export async function extractVideo(url: string): Promise<VideoResult> {
 			signal: controller.signal
 		});
 
+		const contentType = res.headers.get('content-type') || '';
+		if (!contentType.includes('application/json')) {
+			console.error('External API returned non-JSON response:', res.status, contentType);
+			throw new Error('Download server returned an unexpected response. Please try again later.');
+		}
+
 		const data = await res.json();
 
 		if (!res.ok || data.error) {

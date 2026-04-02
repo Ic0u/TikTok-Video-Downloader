@@ -28,6 +28,11 @@
 				body: JSON.stringify({ url: tiktokUrl })
 			});
 
+			const ct = res.headers.get('content-type') || '';
+			if (!ct.includes('application/json')) {
+				throw new Error('Server returned an unexpected response. Please try again.');
+			}
+
 			const data = await res.json();
 			if (data.error) throw new Error(data.error);
 
